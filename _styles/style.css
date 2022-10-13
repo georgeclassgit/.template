@@ -1,0 +1,61 @@
+:root {
+  --color-black: #000;
+  --color-white: #fff; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+h1, h2, h3 {
+  margin: 0; }
+
+svg {
+  width: 100%;
+  height: auto; }
+
+body {
+  overflow-anchor: none;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: var(--color-dark);
+  background-color: var(--color-white); }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.hero {
+  background-image: url("../../resources/images/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.header {
+  position: absolute;
+  z-index: 1;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
